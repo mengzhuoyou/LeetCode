@@ -1,5 +1,8 @@
 package com.company;
-
+  /*
+  Time Complexity: O(n);
+  Constant Space;
+  */
    class Solution {
     public int findKthLargest(int[] nums, int k) {
         int n = nums.length;
