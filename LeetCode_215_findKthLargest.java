@@ -1,6 +1,9 @@
 package com.company;
 
+class findKthLargest{
+    public int findKthLargest(int[] nums, int k) {
         int n = nums.length;
+        int index = quickSelect(nums,0,n-1 , n - k + 1);
         return nums[index];
     }
 
