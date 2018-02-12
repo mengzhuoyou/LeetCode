@@ -8,7 +8,6 @@ class findKthLargest{
   Constant Space;
   */
    class Solution {
->>>>>>> 6f3fd430dc5369b3bfc7f861b2d4aef624c87bfa
     public int findKthLargest(int[] nums, int k) {
         int n = nums.length;
         int index = quickSelect(nums,0,n-1 , n - k + 1);
